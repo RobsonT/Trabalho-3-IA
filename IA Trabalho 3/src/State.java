@@ -1,26 +1,34 @@
-import searches.Search;
-
-import java.util.Map;
+import searches.GeneticAlgorithm;
+import searches.SimulatedAnnealing;
 
 public class State {
     String initialState;
-    int nnurse;
+    int nnurse, temperature;
 
-    //  recebe o estado inicial e o número de enfermeiros
-    public State(String initialState, int nnurse) {
+    int population, generations;
+    double mutations, elitism;
+
+//  recebe o estado inicial e o número de enfermeiros
+    public State(String initialState, int nnurse, int temperature) {
         this.initialState = initialState;
         this.nnurse = nnurse;
+        this.temperature = temperature;
+    }
+
+    public State(int nnurse, int population, int generations, double mutations, double elitism) {
+        this.nnurse = nnurse;
+        this.population = population;
+        this.generations = generations;
+        this.mutations = mutations;
+        this.elitism = elitism;
     }
 
     //  chamada da busca escolhida pelo usuario
-    public void solve(int searchType, int nnurse) {
-        switch (searchType) {
-            case 1:
-                Search.simulatedAnnealing(initialState, nnurse);
-            case 2:
-                Search.geneticAlgorithm(initialState, nnurse);
-            default:
-                System.out.println("Tipo de busca não encontrada");
-        }
+    public void solveSimulatedAnnealing() {
+        SimulatedAnnealing.search(initialState, nnurse, temperature);
+    }
+
+    public void solveGeneticAlgorithm() {
+        GeneticAlgorithm.search(nnurse, population, generations, mutations, elitism);
     }
 }

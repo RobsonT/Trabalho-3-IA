@@ -2,7 +2,7 @@ package searches;
 
 public class SearchUtils {
 
-    //  printar estados passados como referencia
+//  printa os estados passados como referencia
 //  feito para facilitar a visualizacao
     public static void printState(String state, int nNurse) {
         for (int i = 0; i < nNurse; i++) {
@@ -13,7 +13,7 @@ public class SearchUtils {
         }
     }
 
-    //  imprementacao da violacao 1, referente a deve haver no minimo 1
+//  imprementacao da violacao 1, referente a deve haver no minimo 1
 //  e no maximo 3 enfermeiros em cada turno
     public static int r1Violation(String state, int nNurse) {
 
@@ -37,7 +37,7 @@ public class SearchUtils {
         return countViolations;
     }
 
-    //  imprementacao da violacao 2, referente a cada enfermeiro deve estar
+//  imprementacao da violacao 2, referente a cada enfermeiro deve estar
 //  alocado em 5 turno por semana
     public static int r2Violation(String state, int nNurse) {
 
@@ -62,7 +62,7 @@ public class SearchUtils {
     }
 
 
-    //  imprementacao da violacao 3, referente a nenhum enfermeiro
+//  imprementacao da violacao 3, referente a nenhum enfermeiro
 //  pode trabalhar mais que 3 turnos seguidos sem folga
     public static int r3Violation(String state, int nNurse) {
 
@@ -71,7 +71,7 @@ public class SearchUtils {
         int countViolations = 0;
         int count = 0;
 
-//      for que verifica total de turno trabalhados seguidos para cada enfermeiro
+//      for que verifica o total de turnos trabalhados seguidos para cada enfermeiro
         for (int i = 0; i < nNurse * 21; i += 21) {
             for (int j = i; j < i + 21; j++) {
                 if (state.charAt(j) == '1') {
@@ -86,7 +86,7 @@ public class SearchUtils {
     }
 
 
-    //  imprementacao da violacao 4, referente a os horarios do enfemeiros
+//  imprementacao da violacao 4, referente aos horarios dos enfemeiros
 //  deve ser preferencialmente todos no mesmo turno
     public static int r4Violation(String state, int nnurse) {
         int countViolations = 0;
@@ -115,8 +115,8 @@ public class SearchUtils {
         return countViolations;
     }
 
-    //  retorna um int que representa o quanto o estado é bom, ou seja, o quanto ele sastifaz os requisitos
-//  Quanto menor o valor, menos violações estão ocorrendo
+//  retorna um int que representa o quanto o estado é bom, ou seja, o quanto ele satifaz os requisitos
+//  quanto menor o valor, menos violacoes estao ocorrendo
     public static int evaluate(String state, int nnurse) {
         return r1Violation(state, nnurse) + r2Violation(state, nnurse) + r3Violation(state, nnurse) + r4Violation(state, nnurse);
     }

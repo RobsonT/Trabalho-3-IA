@@ -1,0 +1,29 @@
+Sobre o arquivo enviado
+
+-Terá três arquivos e uma pasta dentro
+  - equipe.txt contendo os nomes dos integrantes da dupla assim como as suas matriculas
+  - help.txt 
+  - relatório.pdf que contem o que percebemos durante a resolução do trabalho
+  - pasta searches que contem 6 arquivos java
+
+Sobre a compilação e inicialização do programa
+
+-Abra o terminal dentro da pasta contendo os arquivos java
+-Execute o comando javac *.java para compilar
+-Execute o comando java Main para abrir o programa
+
+Sobre a execução durante o pragrama
+
+-Irá exibir um menu de interação com 4 escolhas possiveis
+-Escolha a busca de sua preferência
+
+Caso escolha as buscas 1, 2 ou 3
+-Passe a quantidade de enfermeiros que você deseja 
+Você podera escolher entre passar um estado manual ou gerar um estado aleatório
+-Caso escolha passa manual digite uma string composta somente de 0's e 1's que seja do tamanho 21*Nurses (21 vezes o total de enfermeiros que foi passado anteriormente)
+-Caso escolha aleatório o programa ja começará a buscar o resultado.
+
+
+Caso escolha a busca 4
+-Passe a quantidade de enfermeiros que você deseja 
+-Passe a quantidade de estados aleatórios que devem ser testados
