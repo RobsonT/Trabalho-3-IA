@@ -1,11 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8eba159f-c520-4885-b537-45f27e09ddbb" name="Default Changelist" comment="" />
+    <list default="true" id="8eba159f-c520-4885-b537-45f27e09ddbb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/searches/GeneticAlgorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/searches/GeneticAlgorithm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/searches/SearchUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/searches/SearchUtils.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -14,7 +34,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1UKvC2J9YHide0Nn7lrBpQ9mfLu" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -22,9 +46,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Vídeos/teste ia/Trabalho-3-IA/IA Trabalho 3" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunManager">
@@ -67,6 +92,7 @@
       <workItem from="1575204993983" duration="6110000" />
       <workItem from="1575211466921" duration="666000" />
       <workItem from="1575220465833" duration="16388000" />
+      <workItem from="1575241846811" duration="7697000" />
     </task>
     <servers />
   </component>
@@ -78,34 +104,34 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="491" y="82" width="374" height="560" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1575220976529" />
-    <state x="533" y="255" width="290" height="214" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1575118717025">
+    <state x="533" y="255" width="296" height="214" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1575241960206">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="533" y="255" width="290" height="214" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1366.728@0.0.1366.728" timestamp="1575118717025" />
+    <state x="533" y="255" width="296" height="214" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1366.728@0.0.1366.728" timestamp="1575241960206" />
     <state x="466" y="121" width="424" height="482" key="FileChooserDialogImpl" timestamp="1575210930682">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="466" y="121" width="424" height="482" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1575210930682" />
-    <state width="1320" height="393" key="GridCell.Tab.0.bottom" timestamp="1575236088983">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1575249628784">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1320" height="393" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1575236088983" />
-    <state width="1320" height="393" key="GridCell.Tab.0.center" timestamp="1575236088982">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1575249628784" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1575249628784">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1320" height="393" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1575236088982" />
-    <state width="1320" height="393" key="GridCell.Tab.0.left" timestamp="1575236088981">
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1575249628784" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1575249628784">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1320" height="393" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1575236088981" />
-    <state width="1320" height="393" key="GridCell.Tab.0.right" timestamp="1575236088982">
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1575249628784" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1575249628784">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1320" height="393" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1575236088982" />
-    <state x="376" y="190" key="com.intellij.ide.util.TipDialog" timestamp="1575220485357">
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1575249628784" />
+    <state x="376" y="190" key="com.intellij.ide.util.TipDialog" timestamp="1575241875062">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="376" y="190" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1575220485357" />
+    <state x="376" y="190" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1575241875062" />
     <state x="347" y="159" key="run.anything.popup" timestamp="1575207098720">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

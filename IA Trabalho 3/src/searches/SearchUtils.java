@@ -2,6 +2,35 @@ package searches;
 
 public class SearchUtils {
 
+    public static void quickSort(String[] vetor, int inicio, int fim, int nNursey) {
+        if (inicio < fim) {
+            int posicaoPivo = separar(vetor, inicio, fim, nNursey);
+            quickSort(vetor, inicio, posicaoPivo - 1, nNursey);
+            quickSort(vetor, posicaoPivo + 1, fim, nNursey);
+        }
+    }
+
+    public static int separar(String[] vetor, int inicio, int fim, int nNursey) {
+        String pivo = vetor[inicio];
+        int i = inicio + 1, f = fim;
+        while (i <= f) {
+            if (evaluate(vetor[i], nNursey) <= evaluate(pivo, nNursey))
+                i++;
+            else if (evaluate(pivo, nNursey) < evaluate(vetor[f], nNursey))
+                f--;
+            else {
+                String troca = vetor[i];
+                vetor[i] = vetor[f];
+                vetor[f] = troca;
+                i++;
+                f--;
+            }
+        }
+        vetor[inicio] = vetor[f];
+        vetor[f] = pivo;
+        return f;
+    }
+
 //  printa os estados passados como referencia
 //  feito para facilitar a visualizacao
     public static void printState(String state, int nNurse) {
